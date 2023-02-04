@@ -1,0 +1,246 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marlo Maddox Jr Website Design</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+<style>
+      @keyframe loading {
+        0%   {opacity: 0.9; right: 0px; top: 0px;}
+        25%  {opacity: 0.7; right: 50px; top: 50px;}
+        50%  {opacity: 0.5; right: 0px; top: 50px;}
+        75%  {opacity: 0.3; right: 50px; top: 0px;}
+        100% {opacity: 0.1; right: 0px; top: 0px;}
+      }
+
+      @-webkit-keyframes loading {
+        0%   {opacity: 0.9; right: 0px; top: 0px;}
+        25%  {opacity: 0.7; right: 400px; top: 0px;}
+        50%  {opacity: 0.5; right: 400px; top: 400px;}
+        75%  {opacity: 0.3; right: -400px; top: 400px;}
+        100% {opacity: 0.1; right: -400px; top: 50px;}
+        100% {opacity: 0.1; right: -400px; top: 0px;}
+      
+      }
+
+      .circle {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        position: relative;
+        background-color: #0eded6;
+        animation-name: loading;
+        opacity: 1;
+        animation-duration: 4s;
+        animation-delay: 2s;
+        animation-iteration-count: 10;
+      }
+
+      .container{
+        width: 100wv;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+      }
+</style>
+
+</head>
+<body>
+<!----- Modal popup ---->
+
+<div class="modal" id="mymodal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"></div>
+      <h2 class="modal-title"> Welcome</h2>
+    </div>
+    <div class="modal-body">
+      <p>
+TEST TEST TEST
+
+      </p>
+      </div><!-- end modal-content-->
+    </div><!--- end .modal-dialog -->
+    </div> <!-- end.modal -->
+
+
+
+<!----- Modal popup end ---->
+
+
+
+
+    <section class="header">
+        
+        <nav>
+            <a href="index.html"><img src="images/madlogo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="Home.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Projects.html">PROJECTS</a></li>
+                    <li><a href="blog.html">BlOG</a></li>
+                    <li><a href="Video.html">VIDEOS</a></li>
+                    <li><a href="Contact.html">CONTACT ME</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Marlo Maddox Jr</h1>
+            <p>Computer Science Major<br>Lincoln University</p>
+            <a href= "contact.html" data-toggle="#modal" data-target="modal" class="hero-btn">CONTACT ME</a>
+        </div>
+
+         <div class="container">
+  <div class="circle"></div>
+</div>
+    <script src="script.js"></script>
+    </section>
+    
+
+  
+    
+<!---------- Account ---------->
+    
+    <section class="Mad1">
+        <h1>Accounts</h1>
+        <p>Follow and connect with me to stay up to date!</p>
+            <div class="row">
+                <div class="Mad1-col">
+                    <img src="images/youtubelogo.png">
+                    <div class="layer">
+                        <a href="https://www.youtube.com/@teamtieroneC/videos"><h3>Team Tier One</h3></a>
+                    </div>
+                </div>
+                <div class="Mad1-col">
+                    <img src="images/twitchlogo.png">
+                    <div class="layer">
+                        <a href="https://www.twitch.tv/marlo2k_"><h3> Marlo2k_ </h3></a>
+                    </div>
+                </div>
+                <div class="Mad1-col">
+                    <img src="linkedinlogo.png">
+                    <div class="layer">
+                        <a href="https://www.linkedin.com/in/marlo-m-a91065139?trk=people-guest_people_search-card"><h3>LinkedIn</h3></a>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+    
+<!---------- Me ---------->
+    
+    <section class="MadMe">
+        <h1>Marlo Maddox Jr</h1>
+        <p>Intrest and Hobbys</p>
+            <div class="row">
+                <div class="MadMe-col">
+                    <img src="images/marloJRpic2.jpg">
+                    <h3>Photography</h3>
+                    <p>Who doesn't like a nice picture ?</p>
+                </div>
+                <div class="MadMe-col">
+                    <img src="images/marloJRpic4.png">
+                    <h3>Athlete</h3>
+                    <p>Next Collegiate League Olympic-style lacrosse, "Beast of the week" </p>
+                </div>
+                <div class="MadMe-col">
+                    <img src="images/marlogamingpic.jpeg">
+                    <h3>A True Gamer</h3>
+                    <p>I Play Everything !</p>
+                </div>
+            </div>
+    </section>
+    
+    
+<!---------- Rating ----------
+    
+    <section class="MadRates">
+        <h1>What the people say</h1>
+        <p>Rating</p>
+            <div class="row">
+                <div class="MadRates-col">
+                    <img src="images/Professor_James_Chikwem.png">
+                    <div> 
+                        <p>--------------------------------------------</p>
+                        <h3>Professor Chikwem</h3>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="MadRates-col">
+                    <img src="images/MarloSR.png">
+                    <div>
+                        <p>------------------------------------.</p>
+                        <h3>Mr. Marlo M Maddox</h3>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+<!------ Call To Action ------>
+
+<section class="Madcta">
+    
+       <h1>Marlo Maddox Jr<br>Computer Science Major</h1>
+        <a href="file:///D:/Eduford%20Code/contact.html" class="hero-btn">CONTACT ME</a>
+    
+</section>    
+ 
+<!-------- Ender ---------->
+
+<section class="ender">
+        <h4>Information</h4>
+        <p>Socials</p>
+        <div class="icons">
+            <a href="https://www.youtube.com/@teamtieroneC/featured"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.twitch.tv/marlo2k_"><i class="fa fa-Twitch"></i></a>
+            <a href="https://www.instagram.com/ok.marlo/?hl=en"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/marlo-m-a91065139/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://unhappyimpracticallegacy.marlomaddox.repl.co/"><i class="fa fa-square"></i></a>
+            <a href="https://onelove-marlomaddox.csc201fall2021.repl.co/"><i class="fa fa-circle"></i></a>
+            <a href="https://lincoln-university-redesign-marlomaddox.csc201fall2021.repl.co/"><i class="fa fa-dot-circle-o"></i></a>
+            
+        </div>
+        
+</section>   
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+
+</body>
+</html>
+
+
+
+
+
+
+
